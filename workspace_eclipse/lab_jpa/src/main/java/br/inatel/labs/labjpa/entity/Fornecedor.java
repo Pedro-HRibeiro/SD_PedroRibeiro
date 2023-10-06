@@ -27,6 +27,18 @@ public class Fornecedor {
 
 	
 	
+	//construtores...
+	public Fornecedor() {
+	}
+	
+	
+	public Fornecedor(String razaoSocial) {
+		super();
+		this.razaoSocial = razaoSocial;
+	}
+
+	
+	
 	
 	//acessores...
 	public Long getId() {
